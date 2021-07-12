@@ -1,5 +1,5 @@
 ##############################
-#   iMessage Spammer Code    #
+#    iMessage Sender Code    #
 #  created by Brad Campbell  #
 #       06 / 10 / 2020       #
 ##############################
@@ -44,7 +44,7 @@ def spamTarget():
         '''
         proc = subprocess.Popen(['osascript', '-'], stdin=subprocess.PIPE, stdout=subprocess.PIPE)
         stdout_output = proc.communicate(script)[0]
-        print ("Completed word " + str(x) + "\t" + str(stdout_output)) #gives running word count and tells error words
+        print ("Completed word " + str(x) + "\t" + str(stdout_output)) # gives running word count and tells error words
 
 # Runs both mentioned methods and has "print()" check points for console verification
 def main():
